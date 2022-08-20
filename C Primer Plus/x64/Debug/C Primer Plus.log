@@ -1,2 +1,3 @@
 ﻿  C Primer Plus.cpp
+D:\C++文档\C-Primer-Plus\C Primer Plus\C Primer Plus.cpp(12,26): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
   C Primer Plus.vcxproj -> D:\C++文档\C-Primer-Plus\C Primer Plus\x64\Debug\C Primer Plus.exe

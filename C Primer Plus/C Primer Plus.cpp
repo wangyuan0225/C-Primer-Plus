@@ -1,20 +1,54 @@
 #define _CRT_SECURE_NO_WARNINGS 1
 #include<stdio.h>
-
-
+#include<string.h>
+#include<inttypes.h>
 
 int main(void)
 {
-	unsigned int un = 3000000000;
-	short end = 200;
-	long big = 65537;
-	long long verybig = 12345678908642;
-	printf("un=%u and not %d\n", un, un);
-	printf("end=%hd and %d\n", end, end);
-	printf("big=%ld and not %hd\n", big, big);
-	printf("verybig=%lld and not %ld\n", verybig,verybig);
+	int32_t me32;
+
+	me32 = 45933945;
+	printf("First, assume int32_t is int: ");
+	printf("me32 = %d\n", me32);
+	printf("Next,let's not make any assumptions.\n");
+	printf("Instead, use a \"macro\" from inttypes.h: ");
+	printf("me32 = %" PRId32 "\n", me32);
 	return 0;
 }
+
+
+//int main(void)
+//{
+//	char ch;
+//
+//	printf("Please enter a character.\n");
+//	scanf("%c", &ch);
+//	printf("The code for %c is %d.\n", ch, ch);
+//
+//	return 0;
+//}
+
+
+//int main(void)
+//{
+//	printf("Gramps sez, \"a \\ is a backslash.\"\n");
+//	return 0;
+//}
+
+
+
+//int main(void)
+//{
+//	unsigned int un = 3000000000;
+//	short end = 200;
+//	long big = 65537;
+//	long long verybig = 12345678908642;
+//	printf("un=%u and not %d\n", un, un);
+//	printf("end=%hd and %d\n", end, end);
+//	printf("big=%ld and not %hd\n", big, big);
+//	printf("verybig=%lld and not %ld\n", verybig,verybig);
+//	return 0;
+//}
 
 
 //int main(void)

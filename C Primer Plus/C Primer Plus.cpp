@@ -5,16 +5,50 @@
 
 int main(void)
 {
-	int32_t me32;
+	float a, b;
 
-	me32 = 45933945;
-	printf("First, assume int32_t is int: ");
-	printf("me32 = %d\n", me32);
-	printf("Next,let's not make any assumptions.\n");
-	printf("Instead, use a \"macro\" from inttypes.h: ");
-	printf("me32 = %" PRId32 "\n", me32);
+	b = 2.0e20 + 1.0;
+	a = b - 2.0e20;
+	printf("%f \n", a);
+
 	return 0;
 }
+
+
+//int main(void)
+//{
+//	float toobig = 3.4E38 * 100.f;
+//	printf("%e\n", toobig);
+//
+//	return 0;
+//}
+
+
+//int main(void)
+//{
+//	float aboat = 32000.0;
+//	double abet = 2.14e9;
+//	long double dip = 5.32e-5;
+//	printf("%f can be written %e\n", aboat, aboat);
+//	printf("And it's %a in hexadecimal,powers of 2 notation\n", aboat);
+//	printf("%f can be written %e\n", abet, abet);
+//	printf("%Lf can be written %Le\n", dip, dip);
+//	return 0;
+//}
+
+
+//int main(void)
+//{
+//	int32_t me32;
+//
+//	me32 = 45933945;
+//	printf("First, assume int32_t is int: ");
+//	printf("me32 = %d\n", me32);
+//	printf("Next,let's not make any assumptions.\n");
+//	printf("Instead, use a \"macro\" from inttypes.h: ");
+//	printf("me32 = %" PRId32 "\n", me32);
+//	return 0;
+//}
 
 
 //int main(void)

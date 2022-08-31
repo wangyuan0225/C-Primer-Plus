@@ -5,15 +5,54 @@
 
 int main(void)
 {
-	printf("Type int has a size of %u bytes.\n",sizeof(int));
-	printf("Type char has a size of %zd bytes.\n",sizeof(char));
-	printf("Type long has a size of %zd bytes.\n", sizeof(long));
-	printf("Type long long has a size of %zd bytes.\n", sizeof(long long));
-	printf("Type double has a size of %zd bytes.\n", sizeof(double));
-	printf("Type long double has a size of %zd bytes.\n", sizeof(long double));
+	float salary;
+
+	printf("\aEnter your desired monthly salary:");
+	printf(" $_______\b\b\b\b\b\b\b");
+	scanf("%f", &salary);
+	printf("\n\t$%.2f a month is $%.2f a year.", salary, 
+		salary * 12.0);
+	printf("\rGee!\n");
 
 	return 0;
 }
+
+
+//int main(void)
+//{
+//	int n = 4;
+//	int m = 5;
+//	float f = 7.0f;
+//	float g = 8.0f;
+//
+//	printf("%d\n", n, m);
+//	printf("%d %d %d\n", n);
+//	printf("%d %d\n", f, g);
+//	return 0;
+//}
+
+
+//int main(void)
+//{
+//	int oranges = 3;
+//	int cost = 12.99;
+//	float pi = 3.1415926536;
+//	printf("%d %lf\n", cost, pi);
+//	return 0;
+//}
+
+
+//int main(void)
+//{
+//	printf("Type int has a size of %u bytes.\n",sizeof(int));
+//	printf("Type char has a size of %zd bytes.\n",sizeof(char));
+//	printf("Type long has a size of %zd bytes.\n", sizeof(long));
+//	printf("Type long long has a size of %zd bytes.\n", sizeof(long long));
+//	printf("Type double has a size of %zd bytes.\n", sizeof(double));
+//	printf("Type long double has a size of %zd bytes.\n", sizeof(long double));
+//
+//	return 0;
+//}
 
 
 //int main(void)

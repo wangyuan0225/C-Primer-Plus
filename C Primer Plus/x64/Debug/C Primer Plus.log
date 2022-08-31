@@ -1,4 +1,2 @@
 ﻿  C Primer Plus.cpp
-D:\C++文档\C-Primer-Plus\C Primer Plus\C Primer Plus.cpp(8,9): warning C4477: “printf”: 格式字符串“%u”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“size_t”
-D:\C++文档\C-Primer-Plus\C Primer Plus\C Primer Plus.cpp(8,9): message : 请考虑在格式字符串中使用“%zu”
   C Primer Plus.vcxproj -> D:\C++文档\C-Primer-Plus\C Primer Plus\x64\Debug\C Primer Plus.exe

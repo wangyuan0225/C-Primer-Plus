@@ -1,4 +1,3 @@
-#define _CRT_SECURE_NO_WARNINGS 1
 #include<stdio.h>
 #include<string.h>
 #include<inttypes.h>
@@ -6,13 +5,13 @@
 
 
 
-//int main(void)
-//{
-//	float salary;
-//	printf("Enter your desired monthly salary:\n");
-//	scanf_s("%f", &salary);
-//	return 0;
-//}
+int main()
+{
+	float salary;
+	printf("Enter your desired monthly salary:\n");
+	scanf("%f", &salary);
+	return 0;
+}
 
 
 //int main(void)
